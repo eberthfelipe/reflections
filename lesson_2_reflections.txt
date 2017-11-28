@@ -2,6 +2,16 @@
 Ele cria um diretório uculto .git com as informações do repositório. para que o versionamento dos arquivos do projeto comecem a ser rastrados.
 2. Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 Na área de preparação será colocada as alterações que fizerem parte do mesmo contexto ou da mesma modificação lógica, o que permite o envio de commits mais organizados para o repositório. Portanto, é possível trabalhar em vários arquivos e depois organizá-los na área de preparação da forma que fizer mais sentido para quem estiver trabalhando.
+3. Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+Adicionando a ela apenas os arquivos que fizerem parte dessa alteração lógica, em seguida, executando o commit desta modificação. Sendo assim, é possível trabalhar em várias funcionalidades e arquivos ao mesmo tempo pois na staging area os mesmos poderão ser organizados de acordo com o seu propósito.
+4. Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+Para manter uma versão estável do projeto enquanto se trabalha em outras funcionalidas e/ou correção de bugs e/ou refatoração do código.
+5. Como os diagramas ajudam a visualizar a estrutura de branches?
+Mostrando onde os mesmos foram criados e seus pais, facilitanto o entendimento da estrutura do projeto.
+6. Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+Resultará na integração dos commits que foram feitos nos dois branches, tranformando-os em um só matendo o histórico dos dois branches. Porque eles se separam a partir do momento em que são criados e os commits feitos em cada um deles segue sequencialmente a partir dos commits anteriores (pais), por isso, ao fazer o merge, onde os branches se juntam novamente, o histórico dos commits não é perdido e ao desenhar o diagrama desta forma pode-se visualizar o histórico do repositório e rastrear cada commit realizado.
+7. Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+Na mesclagem manual é necessário identificar qual commit em comun entre os branches envolvidos, já via Git, esse commit é identificado automaticamente
 
 * Commit Messages | Reference: http://udacity.github.io/git-styleguide/
 The Type
