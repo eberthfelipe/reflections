@@ -1,0 +1,16 @@
+[user]
+	name = Eberth Felipe
+	email = eberth.c@samsung.com
+[core]
+	editor = 'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+[merge]
+	tool = p4merge
+	conflictstyle = diff3
+[color]
+	ui = auto
+[http]
+	proxy = http://105.112.150.10:8080
+[https]
+	proxy = https://105.112.150.10:8080
+[push]
+	default = upstream
