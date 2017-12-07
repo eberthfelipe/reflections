@@ -1,2 +1,12 @@
-1. Quando gostaria de usar um repositÃ³rio remoto em vez de manter o trabalho local?
-Ao trabalhar em diferentes estaÃ§Ãµes e/ou outras pessoas estÃ£o envolvidas no projeto.
+1. Quando gostaria de usar um repositório remoto em vez de manter o trabalho local?
+Ao trabalhar em diferentes estações e/ou outras pessoas estão envolvidas no projeto.
+2. Por que você prefere efetuar pull de alterações manualmente do que deixar o Git atualizar-se automaticamente com o seu repositório remoto?
+Porque pode-se controlar o momento mais est?vel do código local para fazer o pull, pois nele podem conter modificações em arquivos que estão sendo alterados no repositório local, o que geraria conflitos constantes.
+3. Descreva as diferenças entre bifurcações, clones e branches. Quando você usaria um e não os outros?
+Bifurcações são feitas quando um repositório remoto precisa ser clonado para o repositório remoto de outro usuário. O clone é feito para gerar uma cópia do repositório remoto em uma máquina local. 
+4. Qual é o benefício de ter uma cópia do último estado conhecido do remoto armazenado localmente?
+Para que você possa manter o controle de como você está, localmente, em relação ao repositório remoto.
+5. Como você colaboraria sem usar Git ou GitHub? O que seria mais fácil e mais difícil?
+Seria difícil trabalhar com outros colaboradores e manter um histórico de cada modificação no projeto, além de trabalhar com código mais atual mas sem afetá-lo, criando outro branch.
+6. Quando você gostaria de fazer alterações em um branch separado, e não diretamente no master? Quais são os benefícios de cada abordagem?
+Para não afetar uma versão estável do código, criando branches para implementação de features e/ou bug fix. Com apenas um branch, o master, não é necessário realizar integrações e o gerenciamento de branches pois o código está todo em um só lugar, contudo, com a criação de branches é possível manter no master apenas versões estáveis do código para que qualquer modificação seja feita em branches alternativos e sejam integradas no master apenas quando estiverem estáveis, assim como ele.
